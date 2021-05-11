@@ -1,0 +1,18 @@
+{
+  "pages":[
+    "pages/mainpage/mainpage",
+    "pages/Kicointest/Kicointest",
+    "pages/kiconDeal/kiconDeal",
+    "pages/index/index",
+    "pages/logs/logs"
+   
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "K币管理平台",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

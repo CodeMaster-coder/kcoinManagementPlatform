@@ -1,0 +1,28 @@
+<!--pages/mainpage/mainpage.wxml-->
+<view class="icon">
+<image src="https://i.loli.net/2021/05/08/3uBV26ctbC5HzFp.png" class="storage-img"></image>
+</view>
+<view class="firstLine">
+  <navigator url="/pages/Kicointest/Kicointest">
+  <view class="mainBox">
+    <view class="circular">
+      <image src="https://i.loli.net/2021/05/11/UNCOzx73p12eZJ9.png" class="circular-img"></image>
+    </view>
+    <view class="search">
+      K币查询
+    </view>
+  </view>
+</navigator>
+</view>
+<view class="secondLine">
+  <navigator url="/pages/kiconDeal/kiconDeal">
+  <view class="mainBox">
+    <view class="circular">
+      <image src="https://i.loli.net/2021/05/11/9VIHc4NYGdZRO3z.png" class="circular-img"></image>
+    </view>
+    <view class="search">
+      K币交易
+    </view>
+  </view>
+</navigator>
+</view>

@@ -1,0 +1,71 @@
+<!--pages/ kiconDeal/ kiconDeal.wxml-->
+<!--pages/kiconDeal/kiconDeal.wxml-->
+<form class="page__bd" bindsubmit="formSubmit">
+<view class="icon">
+<image src="https://i.loli.net/2021/05/08/3uBV26ctbC5HzFp.png" class="kicon"></image>
+</view>
+<view class="platform">
+<view class="platformTitle">
+交易平台
+</view>
+<view class="dealPerson">
+<view class="trader">
+  <view class="traderTitle">
+    交易人 
+  </view>
+  <input class="traderName" placeholder="张强强" name ="traderName" value="{{traderName}}"> 
+   
+</input>
+</view>
+<view class="tradeImage">
+  <image src="https://i.loli.net/2021/05/10/Bu5D1mzHweh4Cqp.png" class="tradeIcon"></image>
+</view>
+<view class="obtainer">
+  <view class="obtainerTitle">
+    获得人 
+  </view>
+  <input class="obtainerName" placeholder="顾华" name ="obtainerName" value="{{obtainerName}}">
+    
+</input>
+</view>
+</view>
+<view class="dealPerson">
+<view class="trader">
+  <view class="traderTitle">
+    交易积分
+  </view>
+  <input class="traderName" type="number" placeholder="20" name ="traderScore" value="{{traderScore}}">
+   
+</input>
+</view>
+<view class="tradeImage">
+  <image src="https://i.loli.net/2021/05/10/Bu5D1mzHweh4Cqp.png" class="tradeIcon"></image>
+</view>
+<view class="obtainer">
+  <view class="obtainerTitle">
+    获得积分
+  </view>
+  <input class="obtainerName" placeholder="20" type="number" value="{{traderScore}}">
+   
+  </input>
+</view>
+</view>
+<view class="tradeComment">
+<view class="tradeCommentTitle">
+交易原因
+</view>
+<view>
+<view class="tradeCommentContent">
+<input type="text" placeholder="请备注交易原因" name ="traderReason" value="{{traderReason}}">
+</input>
+</view>
+</view>
+</view>
+<view class="confirm">
+  <button class="confirmButton" form-type="submit">
+  确认交易
+  </button>
+</view>
+</view>
+</form>
+

@@ -1,0 +1,84 @@
+/* pages/ kiconDeal/ kiconDeal.wxss */
+/* pages/kiconDeal/kiconDeal.wxss */
+page{
+  background: #DCDCDC;
+}
+.icon{
+  text-align: center;
+}
+.kicon{
+  width: 200rpx;
+  height: 200rpx;
+}
+.platform{
+  width: 690rpx;
+  height: 850rpx;
+  margin: 0 auto;
+  background: white;
+  border-radius: 50rpx;
+}
+.platformTitle{
+  height: 80rpx;
+  text-align: center;
+  line-height: 80rpx;
+  border-bottom: 3rpx solid #808080;
+}
+.dealPerson{
+  display: flex;
+  margin-top: 30rpx;
+  padding-bottom: 15rpx;
+  border-bottom: 3rpx solid #808080;
+}
+.trader{
+  width: 150rpx;
+}
+.traderTitle{
+  text-align: center;
+  font-size: smaller;
+  color: #808080;
+}
+.traderName{
+  text-align: center;
+}
+.tradeImage{
+  margin: 0 auto;
+}
+.tradeIcon{
+  width: 70rpx;
+  height: 70rpx;
+}
+.obtainer{
+  width: 150rpx;
+}
+.obtainerTitle{
+  text-align: center;
+  font-size: smaller;
+  color: #808080;
+}
+.obtainerName{
+  text-align: center;
+}
+.tradeComment{
+  border-bottom: 3rpx solid #808080;
+}
+.tradeCommentTitle{
+  font-size: smaller;
+  color: #808080;
+  width: 150rpx;
+  text-align: center;
+}
+.tradeCommentContent{
+  margin: 15rpx auto;
+  width: 650rpx;
+  height: 250rpx;
+  border: 3rpx solid black;
+  
+}
+.confirm{
+  width: 300rpx;
+  margin: 20rpx auto;
+}
+.confirmButton{
+  color:black;
+  background-color: #DCDCDC;
+}

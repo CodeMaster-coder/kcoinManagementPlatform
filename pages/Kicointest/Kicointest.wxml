@@ -1,0 +1,19 @@
+<!--pages/Kicointest/Kicointest.wxml-->
+<!--pages/Kicoin/Kicoin.wxml-->
+<!--pages/kicon/kicon.wxml-->
+<view class="icon">
+<image src="https://i.loli.net/2021/05/08/3uBV26ctbC5HzFp.png" class="storage-img"></image>
+</view>
+<view class="content">
+<view class="namecontent">
+<view class="subContent" wx:for="{{name}}" wx:key = 'unique'>
+  {{item}}
+</view>
+</view>
+<view class="namecontent">
+<view class="subContent" wx:for="{{score}}" wx:key = 'unique'>
+  {{item}}
+</view>
+</view>
+</view>
+

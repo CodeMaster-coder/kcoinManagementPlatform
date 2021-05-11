@@ -1,0 +1,42 @@
+/* pages/Kicoin/Kicoin.wxss */
+/* pages/kicon/kicon.wxss */
+.icon{
+  text-align: center;
+}
+image{
+  width: 300rpx;
+  height: 300rpx;
+}
+.content{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+
+}
+.namecontent{
+  display: flex;
+  flex-direction: column;
+  width: 355rpx;
+  height: 85rpx;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 85rpx;
+  border-bottom: 3rpx solid white;
+}
+.subContent{
+  border-bottom: 3rpx solid white;
+  background-color: #FFEBCD;
+}
+.name{
+  background-color: #FFEBCD;
+  width: 325rpx;
+  text-align: center;
+  line-height: 83.5rpx;
+  border-right: 3rpx solid white;
+}
+.subscore{
+  background-color: #FFEBCD;
+  width: 325rpx;
+  text-align: center;
+  line-height: 83.5rpx;
+}
